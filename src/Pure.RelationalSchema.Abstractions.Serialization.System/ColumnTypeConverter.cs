@@ -27,6 +27,7 @@ public sealed class ColumnTypeConverter : JsonConverter<IColumnType>
             new UIntColumnType(),
             new ULongColumnType(),
             new UShortColumnType(),
+            new DoubleColumnType(),
         ];
 
         return types.FirstOrDefault(x => x.Name.TextValue == columnType)
