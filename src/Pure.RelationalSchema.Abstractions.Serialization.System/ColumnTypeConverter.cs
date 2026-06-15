@@ -28,6 +28,8 @@ public sealed class ColumnTypeConverter : JsonConverter<IColumnType>
             new ULongColumnType(),
             new UShortColumnType(),
             new DoubleColumnType(),
+            new FloatColumnType(),
+            new UuidColumnType(),
         ];
 
         return types.FirstOrDefault(x => x.Name.TextValue == columnType)
