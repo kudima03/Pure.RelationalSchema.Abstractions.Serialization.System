@@ -12,7 +12,7 @@ dotnet build --no-restore -warnaserror
 dotnet format --verify-no-changes             # check code style (CI enforces this)
 dotnet format && csharpier format .           # auto-fix code style
 dotnet test --no-build --verbosity normal --logger trx --collect:"XPlat Code Coverage"
-dotnet pack --configuration Release -p:PackageVersion=<version> --output .
+dotnet pack --configuration Release -p:Version=<version> --output .
 ```
 
 CI also runs mutation testing via `dotnet stryker --mutation-level Complete`. Run locally with `dotnet tool install -g dotnet-stryker` then `dotnet stryker`.
