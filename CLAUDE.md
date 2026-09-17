@@ -15,6 +15,8 @@ dotnet test --no-build --verbosity normal --logger trx --collect:"XPlat Code Cov
 dotnet pack --configuration Release -p:Version=<version> --output .
 ```
 
+CI additionally passes `-p:AssemblyVersion` (pinned to the major) and `-p:FileVersion`; see `.github/workflows/publish-nuget.yml`.
+
 CI also runs mutation testing via `dotnet stryker --mutation-level Complete`. Run locally with `dotnet tool install -g dotnet-stryker` then `dotnet stryker`.
 
 ## Architecture
