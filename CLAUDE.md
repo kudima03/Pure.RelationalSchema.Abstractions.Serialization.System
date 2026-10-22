@@ -37,7 +37,7 @@ This is a **JSON converter library** — six sealed `JsonConverter<T>` classes p
 
 **Multi-targeting:** net7.0, net8.0, net9.0, net10.0. `IsAotCompatible` is `false` — the `ColumnTypeConverter` builds an `IEnumerable` of all known `IColumnType` instances at runtime to match by name.
 
-**Package validation:** `EnablePackageValidation = true` with `PackageValidationBaselineVersion = 0.1.0-preview.1.0.0`. Breaking changes fail the build.
+**Package validation:** `EnablePackageValidation = true` with `PackageValidationBaselineVersion = 0.1.0-preview.1.1.0`. Breaking changes fail the build.
 
 **Publishing:** triggered by pushing a semver tag (`*.*.*`). The tag becomes the `PackageVersion`. Packages are published to both GitHub Packages and NuGet.org.
 

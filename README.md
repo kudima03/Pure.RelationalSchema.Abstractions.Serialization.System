@@ -27,7 +27,7 @@ All converters read and write via the concrete types from `Pure.RelationalSchema
 
 ## Dependencies
 
-- [`Pure.RelationalSchema`](https://github.com/kudima03/Pure.RelationalSchema/tree/2.0.1) — concrete implementations of the relational schema domain model (`Column`, `Table`, `Schema`, `ForeignKey`, `Index`, and all `IColumnType` variants)
+- [`Pure.RelationalSchema`](https://github.com/kudima03/Pure.RelationalSchema/tree/2.1.0) — concrete implementations of the relational schema domain model (`Column`, `Table`, `Schema`, `ForeignKey`, `Index`, and all `IColumnType` variants)
 
 ## Target Frameworks
 
