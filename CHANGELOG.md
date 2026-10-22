@@ -6,6 +6,19 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.1.0-preview.1.1.0] — 2026-10-22
+
+### Added
+
+- The package now includes `README.md`, shown on its nuget.org page.
+
+### Changed
+
+- Updated the `Pure.RelationalSchema` dependency from 2.0.3 to 2.1.0.
+- The assembly version is now derived from the release tag's major version, so
+  it is `0.0.0.0` for 0.x releases (previously `1.0.0.0`). The public API is
+  unchanged.
+
 ## [0.1.0-preview.1.0.3] — 2026-08-04
 
 ### Changed
