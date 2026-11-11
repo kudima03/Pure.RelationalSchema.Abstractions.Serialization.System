@@ -6,6 +6,16 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.1.0-preview.1.2.0] — 2026-11-11
+
+### Added
+
+- Added support for .NET 11 (`net11.0`) alongside the existing target frameworks.
+
+### Changed
+
+- Updated the `Pure.RelationalSchema` dependency from 2.1.0 to 2.2.0.
+
 ## [0.1.0-preview.1.1.0] — 2026-10-22
 
 ### Added
