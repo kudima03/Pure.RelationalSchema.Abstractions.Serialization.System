@@ -35,6 +35,7 @@ All converters read and write via the concrete types from `Pure.RelationalSchema
 - .NET 8
 - .NET 9
 - .NET 10
+- .NET 11
 
 ## Installation
 
